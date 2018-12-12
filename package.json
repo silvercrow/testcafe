@@ -1,0 +1,19 @@
+{
+  "name": "m.admin.tests",
+  "version": "1.0.0",
+  "description": "Mobile Administrative Suite Tests",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "test": "testcafe firefox src/Tests/Basic.js"
+  },
+  "keywords": [
+    "testcafe",
+    "react"
+  ],
+  "author": "David Balan",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^0.23.2"
+  }
+}
